@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>Empanadas</title>
+</head>
+<body>
+
+    <div class="container">
+
+
+    <header>
+        <div class="logo">
+            <img src="/imagenes/logo.jpg" alt="Deliciosas empanadas">
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav class="nav-menu">
+            
+                <a href="index.html">Inicio</a>
+                <a href="menu.html">Quienes Somos</a>
+                <a href="registro.html">Registro</a>
+                <a href="contactos.html">Contacto</a>
+                
+        </nav>
+    </header>
+    <main>
+        <div class="banner">
+            <img src="/imagenes/empanada-banner.jpg" alt="Banner de la tienda de empanadas">
+        </div>
+        <br><br><br><br><br>
+        <h1>"Empanadas al Día"</h1>
+        <p class="centrado">Es un nombre que evoca la frescura y la autenticidad de las empanadas recién preparadas que puedes disfrutar a diario.
+            En Colombia, las empanadas son un plato típico y delicioso que combina sabores tradicionales con ingredientes frescos y sazón casero. 
+            Lo que hace que una empanada colombiana sea especial es su sabor  casero y la combinación de especias que resaltan los sabores tradicionales
+            de Colombia. Cada bocado es una experiencia auténtica que te transporta a las raíces culinarias del país. Las empanadas al estilo colombiano
+            son apreciadas por su frescura, su relleno jugoso y su crujiente textura exterior. 
+            En "Empanadas al día", cada empanada representa lo mejor de la tradición colombiana: calidad fresca, sabores auténticos y la satisfacción 
+            de disfrutar un bocado delicioso en cualquier momento del día.
+        </p>
+
+    <br><br><br><br>
+        <section class="gallery">
+            <h2>Nuestros Productos</h2>
+            <div class="product">
+                <img src="/imagenes/empanada-carne.jpg" alt="Empanada de carne">
+                <h3>Empanada de Carne</h3>
+                <p>Descripción de la empanada de carne...</p>
+            </div>
+            <div class="product">
+                <img src="/imagenes/empanada-pollo.jpg" alt="Empanada de pollo">
+                <h3>Empanada de Pollo</h3>
+                <p>Descripción de la empanada de pollo...</p>
+            </div>
+            <div class="product">
+                <img src="/imagenes/empanada-champiñon.jpg" alt="Empanada de champiñon">
+                <h3>Empanada de Champiñon</h3>
+                <p>Descripción de la empanada de champiñon</p>
+
+            </div>
+            <div class="product">
+                <img src="/imagenes/empanada-hawaiana.jpg" alt="Empanada de champiñon">
+                <h3>Empanada Hawaiana</h3>
+                <p>Descripción de la empanada hawaiana</p>
+
+            </div>
+           
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Tienda de Empanadas</p>
+    </footer>
+
+    </div>
+
+    <script>
+        function toggleMenu() {
+            var navMenu = document.querySelector('.nav-menu');
+            navMenu.classList.toggle('active');
+        }
+    </script>
+
+
+
+
+    <script src="/js/app.js"></script>
+    
+</body>
+</html>

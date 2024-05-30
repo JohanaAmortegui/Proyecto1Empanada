@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/registro.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="container">
+
+
+        <header>
+            <div class="logo">
+                <img src="/imagenes/logo.jpg" alt="Deliciosas empanadas">
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav class="nav-menu">
+                
+                    <a href="index.html">Inicio</a>
+                    <a href="menu.html">Quienes Somos</a>
+                    <a href="registro.html">Registro</a>
+                    <a href="contactos.html">Contacto</a>
+                    
+            </nav>
+        </header>
+
+        <section class="contact-form">
+            <form action="">
+                <h4>Formulario de Registro</h4>
+                <label for="name" class="form-label">Nombres</label>
+                <input type="text" class="form-control" placeholder="Por favor ingrese sus nombres" required>
+
+                <label for="name" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" placeholder="Por favor ingrese sus apellidos" required>
+
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" placeholder="Por favor ingrese su correo electrónico" required>
+
+                <label for="password" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" placeholder="Por favor ingrese su contraseña" required>
+
+                <p><input type="checkbox" id="checkbox">Estoy de acuerdo con los <a href="">terminos y condiciones</a> </p>
+                <input class="boton" type="submit" value="Registrar">
+                <p><a href="">ya tienes cuenta</a></p>
+
+            </form>
+
+        </section>
+        
+        <footer>
+            <p>&copy; 2024 Tienda de Empanadas</p>
+        </footer>
+    
+        </div>
+
+        <script>
+            function toggleMenu() {
+                var navMenu = document.querySelector('.nav-menu');
+                navMenu.classList.toggle('active');
+            }
+        </script>
+    
+    
+    
+    
+        <script src="/js/app.js"></script>
+    
+</body>
+</html>

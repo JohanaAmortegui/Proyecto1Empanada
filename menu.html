@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/menu.css">
+    <title>Quienes somos</title>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <header>
+            <div class="logo">
+                <img src="/imagenes/logo.jpg" alt="Deliciosas empanadas">
+            </div>
+
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="index.html">Inicio</a>
+                <a href="menu.html">Quienes Somos</a>
+                <a href="registro.html">Registro</a>
+                <a href="contactos.html">Contacto</a>
+            </nav>
+        </header>
+
+        <main class="contenido">
+            <h1>Empanadas al Día</h1>
+            <p><strong><h3>Misión</h3></strong></p>
+            <p>En Empanadas al Día, nuestra misión es ofrecer a nuestros clientes la más autentica y deliciosa experiencia de las empanadas colombianas,
+                elaboradas con ingredientes frescos y de alta calidad. Nos esforzamos por mantener viva la tradición culinaria de Colombia, 
+                brindando productos que no solo satisfagan el paladar sino también evoquen la calidez y el sabor de un hogar colombiano. 
+            </p>
+            <p><strong><h3>Visión</h3></strong></p>
+            <p>Nuestra visión es ser la referencia número uno de empanadas colombianas en el mercado global, conocidos por nuestra dedicación a la calidad,
+                la autenticidad y la innovación. Aspiramos a expandirnos y llevar el sabor único de nuestras empanadas a cada rincón del mundo, 
+                estableciéndonos como líderes en la gastronomía colombiana y como embajadores de su rica tradición.</p>
+            </main>
+
+        
+        <aside class="sidebar">
+            <h1>Valores</h1>
+            <p><strong><h3>Innovación</h3></strong></p>
+            <p>Aunque respetamos la tradición, también buscamos innovar y ofrecer nuevas combinaciones de sabores que sorprendan y deleiten a 
+                nuestros clientes. 
+            </p>
+            <p><strong><h3>Pasión</h3></strong></p>
+            <p>Nuesta pasión por la gastronomía colombiana se refleja en cada detalle, desde la selección de ingredientes hasta la preparación 
+                y presentación de nuestras empanadas.   
+            </p>
+        </aside>
+        <div class="widget-1">
+            <h3><strong>Autenticidad</strong></h3>
+            <p>Nos enorgullecemos de matener la esencia de las recetas tradicionales colombianas, ofreciendo productos que reflejan los sabores y 
+                técnicas ancestrales.</p>
+
+        </div>
+        <div class="widget-2">
+            <h3><strong>Calidad</strong></h3>
+            <p>Utilizamos ingredientes frescos y de primera calidad en cada empanada, garantizando un producto final delicioso y saludable.</p>
+        </div>
+        
+        
+        <footer>
+            <p>&copy; 2024 Tienda de Empanadas</p>
+        </footer>
+    
+        </div>
+
+        <script>
+            function toggleMenu() {
+                var navMenu = document.querySelector('.nav-menu');
+                navMenu.classList.toggle('active');
+            }
+        </script>
+    
+        <script src="/js/app.js"></script>
+</body>
+</html>
